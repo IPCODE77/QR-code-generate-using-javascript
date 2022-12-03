@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Poppins&display=swap');
+body{
+    min-height: 100vh;
+    background-color: #5256AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 18px #0000008a;
+    width: 430px;
+}
+.input_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100%;
+}
+.enter_text ,.usertext{
+    min-width: 100%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 19px;
+}
+.usertext{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    min-width: 96%;
+    padding: 7px 7px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+}
+#btn{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 10px;
+    background-color: #5256AD;
+    border: 1px solid white;
+    outline: none;
+    box-shadow: 2px 8px 8px #999999;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    min-width: 100%;
+}
+
+.qr_img{
+    height: 0px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.active{
+    height: 250px;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#qr_code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#qr_img{
+    margin: 1rem 0rem;
+}
+.pushable{
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #5256AD;
+    border: 1px solid white;
+    outline: none;
+    box-shadow: 2px 8px 8px #999999;
+    color: white;
+}
